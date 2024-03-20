@@ -1,2 +1,2 @@
-# surveys
-A little interface to manage surveys
+# A little surveys app
+A little web interface to manage surveys.
