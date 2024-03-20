@@ -11,7 +11,8 @@
     "format:check": "bunx @biomejs/biome format ./app",
     "format": "bunx @biomejs/biome format --write ./app",
     "start": "remix-serve ./build/server/index.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "prepare": "husky"
   },
   "dependencies": {
     "@remix-run/node": "^2.8.1",
@@ -28,6 +29,7 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "husky": "9.0.11",
     "typescript": "^5.1.6",
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.2.1"
